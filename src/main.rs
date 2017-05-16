@@ -72,10 +72,10 @@ fn main() {
         while let Ok(packet) = capture_handle.next() {
             let timestamp = packet.header.ts.tv_sec;
             let ip = format!("{}.{}.{}.{}",
-                             packet.data[30],
-                             packet.data[31],
-                             packet.data[32],
-                             packet.data[33]);
+                             packet.data[26],
+                             packet.data[27],
+                             packet.data[28],
+                             packet.data[29]);
             let identifier = (packet.data[38] as u16) << 8 | packet.data[39] as u16;
             let sequence = (packet.data[40] as u16) << 8 | packet.data[41] as u16;
             println!("{}|{}|{}|{}|{}",
