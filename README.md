@@ -1,6 +1,6 @@
 # pingextract
 ## Dependencies
-- Rust
+- Rust (https://rustup.rs/)
 - Libpcap
 
 ## Build
