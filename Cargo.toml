@@ -4,5 +4,5 @@ version = "0.1.0"
 authors = ["Wouter de Vries <wouter@wbdv.nl>"]
 
 [dependencies]
-pcap = "0.5.7"
-clap = "2.23.2"
+pcap = "0.7.0"
+clap = "2.33.0"
