@@ -1,9 +1,5 @@
-extern crate pcap;
 use pcap::Capture;
-
-extern crate clap;
 use clap::{Arg, App};
-
 use std::path::Path;
 
 fn main() {
