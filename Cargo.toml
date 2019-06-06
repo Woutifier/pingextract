@@ -2,6 +2,7 @@
 name = "pingextract"
 version = "0.1.0"
 authors = ["Wouter de Vries <wouter@wbdv.nl>"]
+edition = "2018"
 
 [dependencies]
 pcap = "0.7.0"
