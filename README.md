@@ -1,4 +1,6 @@
 # pingextract
+[![Build Status](https://travis-ci.org/Woutifier/pingextract.svg?branch=master)](https://travis-ci.org/Woutifier/pingextract)
+
 ## Dependencies
 - Rust (https://rustup.rs/)
 - Libpcap
