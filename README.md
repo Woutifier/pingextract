@@ -3,7 +3,7 @@
 
 ## Dependencies
 - Rust (https://rustup.rs/)
-- Libpcap
+- Libpcap (debian/ubuntu: libpcap0.8 libpcap0.8-dev)
 
 ## Build
 ```
